@@ -12,6 +12,29 @@ A lightweight SaaS dashboard that gives developers out-of-the-box observability 
 
 **Logs** — upload OpenTelemetry-formatted JSON logs to populate dashboard metrics.
 
+## Screenshots
+
+**Agent list** — all configured agents with model, observability status, and cost at a glance.
+![Agent list](UI%20Screenshots/Screenshot%202026-04-17%20at%204.36.24%E2%80%AFPM.png)
+
+**Create agent** — name, model selection, and a prominent observability toggle that auto-generates an OTel config.
+![Create agent](UI%20Screenshots/Screenshot%202026-04-17%20at%204.36.31%E2%80%AFPM.png)
+
+**Overview tab** — model, total token usage, estimated cost, and a prompt/completion token breakdown.
+![Overview](UI%20Screenshots/Screenshot%202026-04-17%20at%204.37.52%E2%80%AFPM.png)
+
+**Evaluation tab** — golden dataset scores and functional test results (pre-built + custom assertions).
+![Evaluation](UI%20Screenshots/Screenshot%202026-04-17%20at%204.38.06%E2%80%AFPM.png)
+
+**Logs tab** — OTel log upload with schema reference.
+![Logs](UI%20Screenshots/Screenshot%202026-04-17%20at%204.38.32%E2%80%AFPM.png)
+
+**Log preview** — inspect raw OTel JSON directly in the dashboard.
+![Log preview](UI%20Screenshots/Screenshot%202026-04-17%20at%204.39.00%E2%80%AFPM.png)
+
+**No observability state** — empty state for agents created without observability enabled.
+![No observability](UI%20Screenshots/Screenshot%202026-04-17%20at%204.39.12%E2%80%AFPM.png)
+
 ## How to run
 
 ```
